@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Minecraft Notes',
+  tagline: 'Just my personal notes trying to understand Minecraft :)',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -22,8 +22,11 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // https://docusaurus.io/docs/deployment#deploying-to-github-pages
+  organizationName: 'WaterGenie3', // Usually your GitHub org/user name.
+  projectName: 'minecraft-notes', // Usually your repo name.
+  deploymentBranch: 'github-pages', // gh is a weird abbrev so I'll just use the full name
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
