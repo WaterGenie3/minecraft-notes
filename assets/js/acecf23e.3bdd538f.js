@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkminecraft_notes=self.webpackChunkminecraft_notes||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/minecraft-notes/blog","blogTitle":"Blog","authorsListPath":"/minecraft-notes/blog/authors"}')}}]);

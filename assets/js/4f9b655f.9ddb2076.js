@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkminecraft_notes=self.webpackChunkminecraft_notes||[]).push([[4278],{1261:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/minecraft-notes/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
