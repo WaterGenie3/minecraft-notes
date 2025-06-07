@@ -79,9 +79,9 @@ const config: Config = {
         alt: 'WaterGenie3',
         src: 'img/bee.webp',
       },
-      items: [
-        {to: '/blog', label: 'Blog', position: 'left'}
-      ],
+      // items: [
+      //   {to: '/blog', label: 'Blog', position: 'left'}
+      // ],
     },
     prism: {
       theme: prismThemes.github,
