@@ -10,6 +10,8 @@ This will be a live document for docusaurus formatting reference.
 
 ## Markdown
 
+- [Quick markdown reference](https://commonmark.org/help/)
+
 ### Heading 3
 
 #### Heading 4
@@ -17,6 +19,25 @@ This will be a live document for docusaurus formatting reference.
 ##### Heading 5
 
 ###### Heading 6
+
+> Yesterday is history, tomorrow is a mystery.<br />
+> But today I missed sleep, that's why I should sit down and evaluate my life choices.
+> 
+> — not *Master Oogway*
+
+<details>
+    <summary>Collapsible</summary>
+
+    Hi :)
+
+    <details>
+        <summary>Nested</summary>
+
+        Hi :))
+    </details>
+</details>
+
+---
 
 ## Tabs
 
@@ -51,6 +72,9 @@ function HelloCodeTitle(props) {
   // highlight-start
   const test1 = "These";
   const test2 = "are";
+  // highlight-end
+  const test3 = "not";
+  // highlight-start
   const test3 = "highlighted";
   // highlight-end
   return <h1>Hello, {props.name}</h1>;
@@ -83,6 +107,8 @@ Danger admonition
 ::::
 
 ## Maths
+
+- [$\LaTeX$ maths symbols reference](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf)
 
 Test inline math: $f\colon\R^{3}\to\R^{3}$ hi :)
 
