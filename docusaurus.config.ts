@@ -83,9 +83,12 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'}
       ],
     },
+    colorMode: {
+      respectPrefersColorScheme: true
+    },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.gruvboxMaterialLight,
+      darkTheme: prismThemes.gruvboxMaterialDark,
     },
   } satisfies Preset.ThemeConfig,
 };
