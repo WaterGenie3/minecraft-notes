@@ -81,3 +81,11 @@ Nested
 Danger admonition
 :::
 ::::
+
+## Maths
+
+Test inline math: $f\colon\R^{3}\to\R^{3}$ hi :)
+
+$$
+X\sim U[0,1]
+$$

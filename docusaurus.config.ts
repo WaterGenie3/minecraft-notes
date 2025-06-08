@@ -1,3 +1,5 @@
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
@@ -45,7 +47,9 @@ const config: Config = {
       {
         docs: {
           routeBasePath: '/',
-          sidebarPath: './sidebars.ts'
+          sidebarPath: './sidebars.ts',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex]
         },
         blog: {
           showReadingTime: false,
@@ -57,12 +61,25 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex]
         },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  // For katex
+  // https://docusaurus.io/docs/markdown-features/math-equations
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    }
   ],
 
   themeConfig: {
