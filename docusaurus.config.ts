@@ -71,6 +71,13 @@ const config: Config = {
     ],
   ],
 
+  markdown: {
+    mermaid: true
+  },
+  themes: [
+    '@docusaurus/theme-mermaid'
+  ],
+
   // For katex
   // https://docusaurus.io/docs/markdown-features/math-equations
   stylesheets: [
@@ -111,6 +118,12 @@ const config: Config = {
       theme: prismThemes.gruvboxMaterialLight,
       darkTheme: prismThemes.gruvboxMaterialDark,
     },
+    mermaid: {
+      theme: {
+        light: 'default',
+        dark: 'dark'
+      }
+    }
   } satisfies Preset.ThemeConfig,
 };
 

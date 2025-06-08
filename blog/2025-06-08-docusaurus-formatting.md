@@ -89,3 +89,32 @@ Test inline math: $f\colon\R^{3}\to\R^{3}$ hi :)
 $$
 X\sim U[0,1]
 $$
+
+## Mermaid
+
+- [Mermaid](https://mermaid.js.org/)
+
+<Tabs>
+    <TabItem value="diagram" label="Diagram" default>
+```mermaid
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+    </TabItem>
+    <TabItem value="source" label="Source" default>
+```
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+    </TabItem>
+</Tabs>
