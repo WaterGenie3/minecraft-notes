@@ -19,3 +19,9 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 
 - The community has since moved from the Fandom wiki, so use this new one instead.
 - The wiki also address a much broader audience and supports bedrock, so most coding details don't apply.
+
+## Docusaurus
+
+This website is built with [Docusaurus](https://docusaurus.io/).
+
+- [Formatting reference](/blog/2025/06/08/docusaurus-formatting)
