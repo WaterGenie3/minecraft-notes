@@ -4,6 +4,12 @@
  * work well for content-centric websites.
  */
 
+ @font-face {
+  font-family: 'Monocraft';
+  font-weight: normal;
+  src: url('/static/fonts/monocraft/MonocraftNerdFontComplete--01.ttf') format('truetype');
+ }
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -13,7 +19,8 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-code-font-size: 70%;
+  --ifm-font-family-monospace: 'Monocraft';
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 

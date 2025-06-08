@@ -46,6 +46,8 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 This website is built with [Docusaurus](https://docusaurus.io/).
 
 - [Formatting reference](/blog/2025/06/08/docusaurus-formatting)
+- [Monocraft](https://github.com/IdreesInc/Monocraft) (super cute Minecraft-like monospace font)
 - [Quick markdown reference](https://commonmark.org/help/)
 - [$\LaTeX$ maths symbols reference](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf)
 - [Mermaid](https://mermaid.js.org/)
+- [Infima](https://infima.dev/)
