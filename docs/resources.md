@@ -9,7 +9,12 @@ pagination_next: null
 ## Minecraft
 
 - Jens Bergensten's [Minecraft Game Design (2019) book](https://archive.org/details/minecraft-game-design/page/n1/mode/2up)
-- Henrik Kniberg's [Testing Minecraft in Minecraft video](https://www.youtube.com/watch?v=vXaWOJTCYNg)
+- Henrik Kniberg's [Testing Minecraft in Minecraft video](https://www.youtube.com/watch?v=vXaWOJTCYNg) (test block)
+- Henrik Kniberg's [2021 video on 1.18 terrain generation](https://www.youtube.com/watch?v=TycBrFKEteU)
+- Henrik Kniberg's [2022 video on terrain generation](https://www.youtube.com/watch?v=CSa5O6knuwI)
+- Alan Zucconi's [2022 write-up on terrain generation](https://www.alanzucconi.com/2022/06/05/minecraft-world-generation/) ([video](https://www.youtube.com/watch?v=YyVAaJqYAfE))
+- Alan Zucconi's [Introduction to Minecraft Modding](https://www.alanzucconi.com/2021/04/01/minecraft-modding/)
+- vktec's [video on Entity Goals and Controls](https://www.youtube.com/watch?v=HXc_3zkzk1U)
 
 ### Source Code
 
@@ -27,12 +32,12 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 
 ### Tooling
 
+- Gnembon's [Scarpet API documentation](https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md)
 - Matt/PyroStunts' [MCStacker (command generator)](https://mcstacker.net/)
 - Linkie & shedaniel's [source code viewer](https://linkie.shedaniel.dev/)
 - JoakimThorsen's [block property encyclopedia](https://joakimthorsen.github.io/MCPropertyEncyclopedia/index.html)
 - Misode's [data pack generator](https://misode.github.io/)
 - Misode's [F3+L profiling viewer](https://misode.github.io/report/)
-- Gnembon's [Scarpet API documentation](https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md)
 - Crec0's [Carpet rules database](https://carpet-rules.crec.dev/)
 
 ## Documentation
@@ -51,3 +56,4 @@ This website is built with [Docusaurus](https://docusaurus.io/).
 - [$\LaTeX$ maths symbols reference](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf)
 - [Mermaid](https://mermaid.js.org/)
 - [Infima](https://infima.dev/)
+  - abhigyantrips' [list of css variables](https://gist.github.com/abhigyantrips/b828ca46b2460c6699c73e0162f6be80)
