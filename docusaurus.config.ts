@@ -35,8 +35,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'en-GB',
+    locales: ['en-GB'],
   },
 
   presets: [
@@ -48,7 +48,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts'
         },
         blog: {
-          // showReadingTime: true,
+          showReadingTime: false,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -79,9 +79,9 @@ const config: Config = {
         alt: 'WaterGenie3',
         src: 'img/bee.webp',
       },
-      // items: [
-      //   {to: '/blog', label: 'Blog', position: 'left'}
-      // ],
+      items: [
+        {to: '/blog', label: 'Blog', position: 'left'}
+      ],
     },
     prism: {
       theme: prismThemes.github,
