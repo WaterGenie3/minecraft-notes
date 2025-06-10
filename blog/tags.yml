@@ -3,6 +3,11 @@ misc:
   permalink: /misc
   description: These are posts about topics that didn't fit into any other tags or about this website itself.
 
+mob-spawning:
+  label: Mob Spawning
+  permalink: /mob-spawning
+  description: These are posts about the mob spawning mechanics.
+
 facebook:
   label: Facebook
   permalink: /facebook
