@@ -7,6 +7,68 @@ description: Collection of in-game data and verification.
 
 # Data & Verification
 
+## Estimating Basic Spawn Rates
+
+The end dimension serves as a nice testing environment where:
+
+- There's only 1 spawnable mob type (endermen)
+- The minimum and maximum pack size are the same (4)
+- Controllable light level factors (no skylight and we can keep block light at 0)
+
+Then with 1 full chunk of spawning platform at y 0:
+
+- 1/2 of the attempts will be at y 0 and fail, 1/2 will be at y 1 and can start
+- Most of the pack will succeed except when the jump lands in one of the previous positions (in the same pack or one of the previous packs in the same overall attempt)
+or outside of the spawning area (the chunk).  
+  So we expect slightly less than 4 endermen per y 1 attempt.
+  - We can simulate the spawning algorithm in this simplified settings:
+
+    <details>
+        <summary>Example simulation in python</summary>
+
+        ```python
+        import random
+
+        Point = list[int, int]
+
+        def pack_jump(point: Point) -> Point:
+            new_x = point[0] + (random.randint(0, 5) - random.randint(0, 5))
+            new_z = point[1] + (random.randint(0, 5) - random.randint(0, 5))
+            return [new_x, new_z]
+
+        def is_out_of_chunk(point: Point) -> bool:
+            return point[0] < 0 or point[0] > 15 or point[1] < 0 or point[1] > 15
+
+        def fixed_pack_size_spawn_within_chunk(pack_size: int) -> list[list[Point], int, int, int]:
+            spawn_points = []
+            num_spawns = 0
+            num_overlaps = 0
+            num_out_of_chunk = 0
+            starting_point = [random.randint(0, 15), random.randint(0, 15)]
+            for _ in range(3):
+                current_point = starting_point
+                for __ in range(pack_size):
+                    current_point = pack_jump(current_point)
+                    if is_out_of_chunk(current_point):
+                        num_out_of_chunk += 1
+                        continue
+                    if current_point in spawn_points:
+                        num_overlaps += 1
+                        continue
+                    spawn_points.append(current_point)
+                    num_spawns += 1
+                    if num_spawns >= 4:
+                        break
+                if num_spawns >= 4:
+                    break
+            return [spawn_points, num_spawns, num_overlaps, num_out_of_chunk]
+        ```
+    </details>
+    Running 10 million of this simulation results in 3.817538 endermen per attempt.
+
+So we expect the spawns/hour to be about 3.817538 * (1/2) * 20 * 60 * 60 = 137,431.368.  
+Running `/spawn tracking` after `/tick sprint 30d` (10h) with a repeating command block to remove all endermen each tick to make room on the platform gives about 137,527.
+
 ## Pack Spawning Skirt
 
 ### Wither Skeleton
