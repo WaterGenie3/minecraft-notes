@@ -32,22 +32,24 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 
 ### Tooling
 
-- Gnembon's [Scarpet API documentation](https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md)
 - Matt/PyroStunts' [MCStacker (command generator)](https://mcstacker.net/)
+- Querz's [MCA Selector](https://github.com/Querz/mcaselector)
+- Cubitect's [Cubiomes Viewer](https://github.com/Cubitect/cubiomes-viewer)
 - Linkie & shedaniel's [source code viewer](https://linkie.shedaniel.dev/)
 - JoakimThorsen's [block property encyclopedia](https://joakimthorsen.github.io/MCPropertyEncyclopedia/index.html)
 - Misode's [data pack generator](https://misode.github.io/)
 - Misode's [F3+L profiling viewer](https://misode.github.io/report/)
 - Crec0's [Carpet rules database](https://carpet-rules.crec.dev/)
-- SethBling's [CBScript](https://github.com/SethBling/cbscript)
 - OpenNBS' [Open Note Block Studio](https://github.com/OpenNBS/NoteBlockStudio)
 - PrismarineJS' [Mineflayer](https://github.com/PrismarineJS/mineflayer) (bot API)
 - PrismarineJS' [Prismarine Viewer](https://github.com/PrismarineJS/prismarine-viewer) (view minecraft server/bot)
 - cabaletta's [Baritone](https://github.com/cabaletta/baritone) (pathfinder bot)
 
-### Modding & Data Packs
+### Scripting, Modding, and Data Packs
 
 - [Fabric](https://fabricmc.net/)
+- Gnembon's [Scarpet API documentation](https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md)
+- SethBling's [CBScript](https://github.com/SethBling/cbscript)
 - KikuGie's [Stonecutter](https://stonecutter.kikugie.dev/) (multi-version management)
 - TheblueMan003's [StarLight](https://github.com/TheblueMan003/StarLight) (datapack compiler)
 - [Beet](https://github.com/mcbeet/beet) (resource/data pack development kit)
