@@ -10,4 +10,4 @@ Added notes on the spawning cycle and pack spawning mechanics along with some in
 
 - Brief overview of the [spawning algorithm](/mechanics/mob-spawning/spawn-cycle)
 - Brief overview of [pack spawning skirt](/mechanics/mob-spawning/spawn-cycle/pack-spawn-skirt)
-- Some notes on structure/biome interaction with pack spawn and [in-game data](/mechanics/mob-spawning/spawn-cycle/data-and-verification#wither-skeleton)
+- Some notes on structure/biome interaction with pack spawn and [in-game data](/mechanics/mob-spawning/spawn-cycle/data-and-verification#minimal-skirts-for-maximum-rates)

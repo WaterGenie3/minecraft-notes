@@ -101,6 +101,11 @@ const config: Config = {
         hideable: true
       }
     },
+    blog: {
+      sidebar: {
+        groupByYear: false
+      }
+    },
     navbar: {
       title: 'Notes',
       logo: {

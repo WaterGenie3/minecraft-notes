@@ -69,14 +69,35 @@ or outside of the spawning area (the chunk).
 So we expect the spawns/hour to be about 3.817538 * (1/2) * 20 * 60 * 60 = 137,431.368.  
 Running `/spawn tracking` after `/tick sprint 30d` (10h) with a repeating command block to remove all endermen each tick to make room on the platform gives about 137,527.
 
-## Pack Spawning Skirt
+## Minimal Skirts for Maximum Rates
 
-### Wither Skeleton
+### Same Structure/Biome Example
+
+The setup:
+
+- Carpet `/spawn tracking` after `tick sprint 30d` (10h)
+- [Spawn forcer](https://github.com/WaterGenie3/spawn-forcer) mod with `spreadJump true`
+- 4x4 spawning platform at y 0 in the end (only endermen, pack size 4)
+
+Here, we expect the skirt to increase the rates up to 5 x pack size, so 20 for the endermen in the end dimension.  
+And that going any further out should provide no increase.
+
+| Setup | Skirt | Spawns/hour |
+| :-: | :-- | --: |
+| A | 0 | 1,427 |
+| B | \<=5 | 13,390 |
+| C | \<=20 | 25,949 \| 25,850 \| 25,994 |
+| D | \<=25 | 25,967 \| 25,884 \| 25,819 |
+
+Example platform with birch for 5, oak for 20, and cherry for 25:
+![Example platform for the endermen](./img/endermen-platform.png)
+
+### Wither Skeleton Example
 
 The setup ([world download](https://drive.google.com/file/d/1eQfkj7J5XNqkEV4LYRmQPd5PSt73jzCN/view?usp=sharing)):
 
 - Carpet `/spawn tracking` after `tick sprint 30d` (10h)
-- [Spawn forcer](https://github.com/WaterGenie3/spawn-forcer) mod with `fixedBottomY true` and `chunkBottomY 49` and `spreadJump true`
+- Spawn forcer with `fixedBottomY true` and `chunkBottomY 49` and `spreadJump true`
 - Normal skirt has +1 to y from where they should ideally be so that the heightmap is the same when comparing with nether bricks (n-brick) that will have an extra y level on top for a spawn-proofing block
 
 | Setup | Skirt | Spawns/hour |
@@ -98,3 +119,6 @@ The setup ([world download](https://drive.google.com/file/d/1eQfkj7J5XNqkEV4LYRm
 
 Note that the \<=20 n-brick all-floor in setup D to H is further limited to within the full fortress bounding box.  
 E.g. if on one side, \<=20 is still in the full bounding box, then the maximum would be setup G on that side. And if on another side, the full bounding box goes 14 blocks out, then the maximum would be \<=14 n-brick all-floor and 15-19 normal top-floor on that side.
+
+Example wiske skirt with setup G on 2 floors:
+![Example wiske skirt](./img/wiske-skirt.png)
