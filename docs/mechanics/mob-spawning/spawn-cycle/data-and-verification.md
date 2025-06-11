@@ -92,6 +92,35 @@ And that going any further out should provide no increase.
 Example platform with birch for 5, oak for 20, and cherry for 25:
 ![Example platform for the endermen](./img/endermen-platform.png)
 
+### Guardian Example
+
+The setup ([world download](https://drive.google.com/file/d/1DKNfejBvl0hUEbW5_u30htbVaXYUE4am/view?usp=sharing)):
+
+- Carpet `/spawn tracking` after `tick sprint 30d` (10h)
+- Spawn forcer with `spreadJump true`
+- 4x4 spawning area, whole monument tall, enclosed in tinted glass
+- The \<=20 outside skirt leaves 5 block gap from the monument because those starting points can have first jumps inside the monument and subsequently jump into the farm. I.e. the \<=20 setup is meant to test for 6+.
+- Local water creature and water ambient switch
+
+Here, we expect the outside skirt to max out at 5, and the inside skirt max out at 20 as normal.
+
+Note with `spreadJump`, packs are more spread out, so small spawning platform I used in these tests to make any skirt influence relatively larger will have lower rates compared to the vanilla spread.  
+The `spreadJump` rule is only meant to detect the effects (or the lack thereof) from skirts that are further from the farm.
+
+| Setup | Skirt | Spawns/hour |
+| :-: | :-- | --: |
+| A | 0 | 282 |
+| B | \<=5 outside | 2,188 |
+| C | \<=20 outside | 2,181 |
+| D | \<=5 inside | 1,177 |
+| E | \<=20 inside | 1,893 |
+| F | \<=5 outside and \<=20 inside | 3,856 |
+
+Example test setup with orange for \<=5 outside, red \<=20 outside, lime \<=5 inside, and green \<=20 inside:
+![Example skirt setups for the guardian](./img/guardian-skirt.png)
+
+In practice, we'd also fill in the gaps between the red and green (i.e. orange stretches out as long as its first jump landing inside can still reach the farm).
+
 ### Wither Skeleton Example
 
 The setup ([world download](https://drive.google.com/file/d/1eQfkj7J5XNqkEV4LYRmQPd5PSt73jzCN/view?usp=sharing)):
