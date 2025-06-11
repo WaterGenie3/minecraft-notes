@@ -39,6 +39,24 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 - Misode's [data pack generator](https://misode.github.io/)
 - Misode's [F3+L profiling viewer](https://misode.github.io/report/)
 - Crec0's [Carpet rules database](https://carpet-rules.crec.dev/)
+- SethBling's [CBScript](https://github.com/SethBling/cbscript)
+- OpenNBS' [Open Note Block Studio](https://github.com/OpenNBS/NoteBlockStudio)
+- PrismarineJS' [Mineflayer](https://github.com/PrismarineJS/mineflayer) (bot API)
+- PrismarineJS' [Prismarine Viewer](https://github.com/PrismarineJS/prismarine-viewer) (view minecraft server/bot)
+- cabaletta's [Baritone](https://github.com/cabaletta/baritone) (pathfinder bot)
+
+### Modding & Data Packs
+
+- [Fabric](https://fabricmc.net/)
+- KikuGie's [Stonecutter](https://stonecutter.kikugie.dev/) (multi-version management)
+- TheblueMan003's [StarLight](https://github.com/TheblueMan003/StarLight) (datapack compiler)
+- [Beet](https://github.com/mcbeet/beet) (resource/data pack development kit)
+- [Sandstone](https://github.com/sandstone-mc/sandstone) (resource/data pack development kit)
+
+### Skyblock
+
+- jsorrell's [Carpet Sky Additions](https://modrinth.com/mod/carpet-sky-additions)
+- BPR02's [Sky Void Additions](https://modrinth.com/datapack/sky-void-additions)
 
 ## Documentation
 
@@ -51,7 +69,7 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 This website is built with [Docusaurus](https://docusaurus.io/).
 
 - [Formatting reference](/blog/2025/06/08/docusaurus-formatting)
-- [Monocraft](https://github.com/IdreesInc/Monocraft) (super cute Minecraft-like monospace font)
+- [`Monocraft`](https://github.com/IdreesInc/Monocraft) (super cute Minecraft-like monospace font)
 - [Quick markdown reference](https://commonmark.org/help/)
 - [$\LaTeX$ maths symbols reference](https://www.math.uci.edu/~xiangwen/pdf/LaTeX-Math-Symbols.pdf)
 - [Mermaid](https://mermaid.js.org/)
