@@ -99,7 +99,7 @@ The setup ([world download](https://drive.google.com/file/d/1DKNfejBvl0hUEbW5_u3
 - Carpet `/spawn tracking` after `tick sprint 30d` (10h)
 - Spawn forcer with `spreadJump true`
 - 4x4 spawning area, whole monument tall, enclosed in tinted glass
-- The \<=20 outside skirt leaves 5 block gap from the monument because those starting points can have first jumps inside the monument and subsequently jump into the farm. I.e. the \<=20 setup is meant to test for 6+.
+- The \<=20 outside skirt leaves 5 block gap from the monument because those starting points can have first jumps inside the monument and subsequently jump into the farm. I.e. the \<=20 setup is meant to be 6-20 and it's relative to the structure/biome, not to the farm/spawning platform.
 - Local water creature and water ambient switch
 
 Here, we expect the outside skirt to max out at 5, and the inside skirt max out at 20 as normal.
