@@ -119,7 +119,8 @@ The `spreadJump` rule is only meant to detect the effects (or the lack thereof) 
 Example test setup with orange for \<=5 outside, red \<=20 outside, lime \<=5 inside, and green \<=20 inside:
 ![Example skirt setups for the guardian](./img/guardian-skirt.png)
 
-In practice, we'd also fill in the gaps between the red and green (i.e. orange stretches out as long as its first jump landing inside can still reach the farm).
+In practice, we'd also fill in the gaps between the red and green (i.e. orange stretches out as long as its first jump landing inside can still reach the farm).  
+The \<=20 outside skirt setup here is just so we are only including skirts that are 6-20 blocks out relative to the structure/biome (as opposed to relative to the spawning platform).
 
 ### Wither Skeleton Example
 
