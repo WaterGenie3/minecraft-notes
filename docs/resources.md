@@ -47,7 +47,8 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 
 ### Scripting, Modding, and Data Packs
 
-- [Fabric](https://fabricmc.net/)
+- [Fabric](https://fabricmc.net/) ([GitHub](https://github.com/FabricMC/fabric))
+- [Yarn mapping](https://github.com/FabricMC/yarn)
 - Gnembon's [Scarpet API documentation](https://github.com/gnembon/fabric-carpet/blob/master/docs/scarpet/Full.md)
 - SethBling's [CBScript](https://github.com/SethBling/cbscript)
 - KikuGie's [Stonecutter](https://stonecutter.kikugie.dev/) (multi-version management)
