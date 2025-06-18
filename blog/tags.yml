@@ -3,6 +3,11 @@ misc:
   permalink: /misc
   description: These are posts about topics that didn't fit into any other tags or about this website itself.
 
+rant:
+  label: Rant
+  permalink: /rank
+  description: Personal rambling. I have no friends, no life, and socially awkward T-T
+
 mob-spawning:
   label: Mob Spawning
   permalink: /mob-spawning

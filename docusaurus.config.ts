@@ -52,7 +52,7 @@ const config: Config = {
           rehypePlugins: [rehypeKatex]
         },
         blog: {
-          showReadingTime: false,
+          showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -122,11 +122,18 @@ const config: Config = {
     prism: {
       theme: prismThemes.gruvboxMaterialLight,
       darkTheme: prismThemes.gruvboxMaterialDark,
+      additionalLanguages: ['java', 'yaml', 'json', 'bash'],
     },
     mermaid: {
       theme: {
         light: 'default',
         dark: 'dark'
+      },
+      options: {
+        flowchart: {
+            markdownAutoWrap: false,
+            wrappingWidth: 600
+        }
       }
     }
   } satisfies Preset.ThemeConfig,

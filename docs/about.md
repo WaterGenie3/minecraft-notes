@@ -55,3 +55,9 @@ Mods prompt more trusts from the user, so it should also be open-source so their
 Java Minecraft is not a blackbox and decompiled source code is an extremely valuable and absolute resource.  
 I'll read and refer to them liberally,
 but tracibility does not exempt them from testability.
+
+### Simplify
+
+- Don't over-complicate
+- Know what details to leave/factor out
+- Be as simple as is necessary to explain
