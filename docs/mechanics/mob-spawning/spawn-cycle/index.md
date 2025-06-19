@@ -62,7 +62,7 @@ The first jump that lands in a position that meet the following conditions will 
 
 I'll call this a "valid" jump.
 
-If non of the initial jumps are valid, the pack spawn attempt ends.  
+If none of the initial jumps are valid, the pack spawn attempt ends.  
 If a jump is valid, a mob is sampled from the spawning pool of the structure/biome at that position, and a pack size is picked uniformly between the minimum and maximum pack size for that mob in that structure/biome.  
 However, if the first valid jump is inside the full fortress bounding box and the block below is a nether brick, the mob will also be sampled from the fortress spawning pool.
 
