@@ -9,6 +9,8 @@ description: How mobs pathfind.
 
 ## A*
 
+https://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+
 $$
 g(n) = \sum{\text{euclidean distance between each consecutive nodes}} + \sum{\text{node's penalty}}
 $$
