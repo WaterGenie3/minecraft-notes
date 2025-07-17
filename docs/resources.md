@@ -33,6 +33,7 @@ Refer to the Minecraft wiki [here](https://minecraft.wiki/)
 ### Tooling
 
 - Matt/PyroStunts' [MCStacker (command generator)](https://mcstacker.net/)
+- InventivetalentDev's [Asset Explorer](https://mcasset.cloud/)
 - Querz's [MCA Selector](https://github.com/Querz/mcaselector)
 - Cubitect's [Cubiomes Viewer](https://github.com/Cubitect/cubiomes-viewer)
 - GoldenTadpole's [Mapee](https://github.com/GoldenTadpole/Mapee)

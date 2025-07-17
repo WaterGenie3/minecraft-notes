@@ -27,3 +27,9 @@ If no solution is found, the node with the smallest manhattan distance to the ta
 if all evaluations from that point cannot get to a better node.
 * The 1.5 factor in $h(n)$ means the heuristic is inadmissible, so optimal path is not guaranteed
 even if the evaluation limit has not been reached.
+
+Notes:
+
+* Look into how successive nodes are computed
+* Octile distance
+* Examples
