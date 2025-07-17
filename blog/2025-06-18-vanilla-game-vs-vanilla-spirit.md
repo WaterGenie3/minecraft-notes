@@ -39,7 +39,7 @@ so I see mods that fixes them and/or introduces vanilla-like mechanics as follow
 
 Another class of mechanics is when changes that are being made aren't working as intended.
 The result of this change could result in unforeseen / unintended side-effects,
-or not even result in any obserable change in in-game behaviours at all.
+or not even result in any observable change in in-game behaviours at all.
 
 The only example I have of this is stray spawning that I came across accidentally.  
 When powder snow was introduced in 1.17, stray spawning condition,
